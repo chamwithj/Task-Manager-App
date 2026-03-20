@@ -1,0 +1,13 @@
+# Node/Angular
+**/node_modules/
+**/dist/
+**/.angular/
+
+# Java/SpringBoot
+**/target/
+**/.mvn/
+*.class
+
+# IDEs
+.idea/
+.vscode/
