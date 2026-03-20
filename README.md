@@ -33,7 +33,7 @@ Start the frontend development server "ng serve"
 Authentication & JWT Usage
 Use the login page in the frontend to log in
 On successful login, the backend returns a JWT token
-there is so rendering problems fetch all task take some time to load changing filter work fine
+there is a rendering problems fetch all task take some time to load changing filter work fine
 <img width="1871" height="825" alt="Screenshot 2026-03-21 013411" src="https://github.com/user-attachments/assets/b09fec91-60a0-4072-a879-fbe8314d3208" />
 <img width="1873" height="821" alt="Screenshot 2026-03-21 013450" src="https://github.com/user-attachments/assets/d008bb17-a7b8-4838-a068-e495b62a5ade" />
 <img width="1870" height="842" alt="Screenshot 2026-03-21 013627" src="https://github.com/user-attachments/assets/0a55af20-7654-4112-bf72-013e3dc8703d" />
