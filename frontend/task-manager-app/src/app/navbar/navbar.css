@@ -1,0 +1,75 @@
+/* Modern Root Variables */
+:root {
+  --primary-bg: #ffffff;
+  --text-main: #1f2937;
+  --accent-color: #6366f1;
+  --nav-height: 72px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: var(--nav-height);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-link {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: var(--text-main);
+  text-decoration: none;
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+/* Base style for ALL navigation links (Login, Register, My Tasks) */
+.nav-link {
+  color: var(--text-main); /* Standardized color */
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600; /* Made slightly bolder to match your Login style */
+  transition: all 0.2s ease;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+/* UNIFIED HOVER: This makes Register and Login behave the same */
+.nav-link:hover {
+  color: var(--accent-color);
+  background-color: rgba(99, 102, 241, 0.08); /* Light indigo highlight */
+  transform: translateY(-1px);
+}
+
+/* ONLY the Logout button keeps the solid button look */
+.nav-button {
+  background-color: var(--text-main);
+  color: rgb(0, 0, 0) !important; /* Changed to white for better contrast on dark bg */
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #d9e1f1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(238, 244, 249, 0.15);
+}
